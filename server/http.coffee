@@ -2,7 +2,8 @@ http = require 'http'
 
 server = http.createServer (request, response) ->
   console.log 'request received'
-  console.log request
+  console.log request.url
+  console.log request.headers
   response.writeHead 200, {"Content-Type": "text/plain"}
   response.end "Hello World\n"
 
