@@ -1,0 +1,17 @@
+{
+  "name": "gpp-node",
+  "version": "0.0.1",
+  "description": "GPP Player interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "~0.6.3",
+    "express": "~3.4.0",
+    "coffee-script": "~1.4.0",
+    "socket.io": "~0.9.16"
+  }
+}
