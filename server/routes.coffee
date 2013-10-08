@@ -6,7 +6,7 @@ configure = (app, dir, io) ->
   # json/api routes
   #
 
-  app.get '/gpp/:playerName', (req, res) ->
+  app.get '/ggp/:playerName', (req, res) ->
     msg = 'we received a message for player ' + req.params.playerName
     console.log msg
     fb.set msg
