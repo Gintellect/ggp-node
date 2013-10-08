@@ -17,6 +17,6 @@ configure = (app, dir, io) ->
   app.get '*', (req, res) ->
     console.log req.path
     console.log req.body
-    res.json 404 {message: 'could not find page'}
+    res.json 404, {message: 'could not find page'}
 
 exports.configure = configure
