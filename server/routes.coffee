@@ -19,4 +19,10 @@ configure = (app, dir, io) ->
     console.log req.body
     res.json 404, {message: 'could not find page'}
 
+  app.post '*', (req, res) ->
+    console.log req.path
+    console.log req.body
+    res.json 404, {message: 'could not find page'}
+
+
 exports.configure = configure
