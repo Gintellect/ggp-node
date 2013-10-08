@@ -4,6 +4,7 @@ server = http.createServer (request, response) ->
   console.log 'request received'
   console.log request.url
   console.log request.headers
+  console.log request.method
   response.writeHead 200, {"Content-Type": "text/plain"}
   response.end "Hello World\n"
 
