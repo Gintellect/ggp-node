@@ -15,12 +15,16 @@ configure = (app, dir, io) ->
   #so we return the single page app and let the client handle the rest
 
   app.get '*', (req, res) ->
+    console.log 'GET'
     console.log req.path
+    console.log req.header
     console.log req.body
-    res.json 404, {message: 'could not find page'}
+    res.send '( ( name DeepBeige ) ( status available ) )'
 
   app.post '*', (req, res) ->
+    console.log 'POST'
     console.log req.path
+    console.log req.header
     console.log req.body
     res.send '( ( name DeepBeige ) ( status available ) )'
 
