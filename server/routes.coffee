@@ -22,7 +22,7 @@ configure = (app, dir, io) ->
   app.post '*', (req, res) ->
     console.log req.path
     console.log req.body
-    res.json 404, {message: 'could not find page'}
+    res.send '( ( name DeepBeige ) ( status available ) )'
 
 
 exports.configure = configure
