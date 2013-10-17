@@ -29,6 +29,6 @@ server = http.createServer (req, res) ->
       console.log 'UNKNOWN MESSAGE TYPE'
       console.log body
     
-server.listen 8088
+server.listen 9147
 
 console.log "Server listening on port 8088"

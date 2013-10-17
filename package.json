@@ -1,17 +1,32 @@
 {
-  "name": "gpp-node",
+  "name": "ggp-player",
   "version": "0.0.1",
   "description": "GPP Player interface",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "David Bochenski",
   "license": "MIT",
   "dependencies": {
     "firebase": "~0.6.3",
     "express": "~3.4.0",
     "coffee-script": "~1.4.0",
     "socket.io": "~0.9.16"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gintellect/ggp-node.git"
+  },
+  "keywords": [
+    "GGP",
+    "Nodejs",
+    "Tiltyard"
+  ],
+  "bugs": {
+    "url": "https://github.com/Gintellect/ggp-node/issues"
   }
 }
